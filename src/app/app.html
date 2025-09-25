@@ -1,3 +1,12 @@
-<mat-toolbar color="primary">
-  <span>My Application</span>
+<mat-toolbar color="accent">
+  <span>Cadastro de Clientes </span>
+  <span class="spacer"></span>
+  <a routerLink="/consulta" class="for">
+    <mat-icon fontIcon="feed"></mat-icon>
+    Formulario</a>
+
+  <a routerLink="/cadastro">
+    <mat-icon fontIcon="search"></mat-icon>
+    Cadastro</a>
 </mat-toolbar>
+<router-outlet></router-outlet>
